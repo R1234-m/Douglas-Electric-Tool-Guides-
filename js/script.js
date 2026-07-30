@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const detailTrouble = document.getElementById('detailTrouble');
   const detailParts = document.getElementById('detailParts');
   const detailSafety = document.getElementById('detailSafety');
+  const detailFieldTips = document.getElementById('detailFieldTips');
 
   const toolData = {
     vm810: {
@@ -31,24 +32,34 @@ document.addEventListener('DOMContentLoaded', () => {
       manuals: [
         'VM-810 / VM-850 user handbook (PDF)',
         'Battery charging and maintenance guide',
-        'Daily inspection and startup checklist'
+        'Daily inspection and startup checklist',
+        'Quick-start guide for field locating jobs'
       ],
       troubleshooting: [
         'Signal loss and interference checks',
         'Battery faults, charging problems, and power cycling',
         'Antenna, cable, and calibration issues',
-        'Screen errors and software reset steps'
+        'Screen errors and software reset steps',
+        'Weak or unstable signal when tracing near utilities'
       ],
       parts: [
         'Battery pack and charger',
         'Signal cable and connector kit',
         'Antenna and accessory adapters',
-        'Carry case, headset, and locator accessories'
+        'Carry case, headset, and locator accessories',
+        'Spare connectors and protective covers'
       ],
       safety: [
         'Verify utility locates and mark the work zone',
         'Inspect the locator and cables before every use',
-        'Use PPE and follow utility-safe operating procedures'
+        'Use PPE and follow utility-safe operating procedures',
+        'Stop work if the signal becomes unreliable or the unit is damaged'
+      ],
+      fieldTips: [
+        'Pre-job check: confirm battery charge and cable condition',
+        'Sweep the area before locating to reduce false signal reads',
+        'Keep the locator dry, clean, and protected from impact',
+        'Record the locate location and report any uncertainty immediately'
       ]
     },
     fusion: {
@@ -105,6 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
     detailTrouble.innerHTML = selected.troubleshooting.map((item) => `<li>${item}</li>`).join('');
     detailParts.innerHTML = selected.parts.map((item) => `<li>${item}</li>`).join('');
     detailSafety.innerHTML = selected.safety.map((item) => `<li>${item}</li>`).join('');
+    if (detailFieldTips) {
+      detailFieldTips.innerHTML = selected.fieldTips?.map((item) => `<li>${item}</li>`).join('');
+    }
   };
 
   toolButtons.forEach((button) => {
