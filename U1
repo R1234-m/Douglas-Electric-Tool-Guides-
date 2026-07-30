@@ -1,0 +1,26 @@
+Douglas-Electric-Tool-Guides/
+│
+├── index.html
+├── equipment.html
+├── vm810.html
+├── safety.html
+├── troubleshooting.html
+├── manuals.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│   ├── douglas-logo.png
+│   ├── vm810-case.jpg
+│   ├── vm810-manual.jpg
+│   └── ...
+│
+├── manuals/
+│   └── VM810_User_Manual.pdf
+│
+└── README.md
