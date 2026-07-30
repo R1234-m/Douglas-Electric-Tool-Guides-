@@ -1,193 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Equipment Library | Douglas Electric</title>
-
-<link rel="stylesheet" href="css/style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-
-<header>
-
-<div class="logo-area">
-
-<img src="images/logo.png" class="logo">
-
-<div>
-
-<h1>Douglas Electric</h1>
-
-<p>Equipment Library</p>
-
-</div>
-
-</div>
-
-<nav>
-
-<a href="index.html">Home</a>
-
-<a href="equipment.html">Equipment</a>
-
-<a href="manuals.html">Manuals</a>
-
-<a href="safety.html">Safety</a>
-
-<a href="contact.html">Contact</a>
-
-</nav>
-
-</header>
-
-<div class="page">
-
-<div class="banner">
-
-<h2>Equipment Library</h2>
-
-<p>
-
-Select a piece of equipment below to open its complete
-training guide, manuals, videos and troubleshooting.
-
-</p>
-
-</div>
-
-<div class="cards">
-
-<a href="vm810.html" class="card">
-
-<h3>Vivax Metrotech VM-810 / VM-850</h3>
-
-<p>Pipe & Cable Locator</p>
-
-<p>Training • Manual • Troubleshooting</p>
-
-</a>
-
-<div class="card future">
-
-<h3>Fusion Machine</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-<div class="card future">
-
-<h3>Vacuum Excavator</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-<div class="card future">
-
-<h3>Mini Excavator</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-<div class="card future">
-
-<h3>Directional Drill</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-<div class="card future">
-
-<h3>Generator</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-<div class="card future">
-
-<h3>Cable Puller</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-<div class="card future">
-
-<h3>Hydraulic Tools</h3>
-
-<p>Coming Soon</p>
-
-</div>
-
-</div>
-
-<div class="section">
-
-<h3>Equipment Categories</h3>
-
-<div class="parts">
-
-<div>📡 Utility Locating</div>
-
-<div>⚡ Electrical Testing</div>
-
-<div>🚜 Heavy Equipment</div>
-
-<div>🛠 Hand Tools</div>
-
-<div>🔋 Battery Equipment</div>
-
-<div>🚧 Traffic Control</div>
-
-<div>📖 Company SOPs</div>
-
-<div>🦺 PPE & Safety</div>
-
-</div>
-
-</div>
-
-<div class="section">
-
-<h3>Training Standards</h3>
-
-<p>
-
-Every Douglas Electric employee should review the training
-videos, safety procedures, and operating manual before using
-company equipment.
-
-Always inspect equipment before use and report damaged tools
-to your supervisor immediately.
-
-</p>
-
-</div>
-
-</div>
-
-<footer>
-
-<p>© 2026 Douglas Electric Equipment Portal</p>
-
-</footer>
-
-<script src="js/script.js"></script>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipment Library | Douglas Electric</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">
+          <img src="images/logo.webp" alt="Douglas Electric logo" />
+          <div>
+            <strong>Douglas Electric</strong>
+            <span>Equipment Library</span>
+          </div>
+        </a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="site-nav">
+          <a href="index.html">Home</a>
+          <a href="equipment.html" class="active">Equipment</a>
+          <a href="training.html">Training</a>
+          <a href="manuals.html">Manuals</a>
+          <a href="safety.html">Safety</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-banner">
+        <div class="container">
+          <p class="eyebrow">Resource library</p>
+          <h1>Equipment library</h1>
+          <p>Search tools and open training, troubleshooting, manuals, and parts references from a single view.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="search-box">
+            <label class="sr-only" for="equipmentSearch">Search equipment</label>
+            <input id="equipmentSearch" type="search" placeholder="Search equipment by name or topic" />
+          </div>
+
+          <div class="tool-grid">
+            <article class="tool-card" data-search="vm810 locator training manual troubleshooting parts list">
+              <h3>Vivax Metrotech VM-810 / VM-850</h3>
+              <p>Utility locating system for pipe and cable detection.</p>
+              <div class="chip-row">
+                <span class="chip">Training</span>
+                <span class="chip">Manual</span>
+                <span class="chip">Troubleshooting</span>
+                <span class="chip">Parts</span>
+              </div>
+              <a class="btn btn-inline" href="training.html">Open resource pack</a>
+            </article>
+
+            <article class="tool-card" data-search="fusion machine training manual troubleshooting parts">
+              <h3>Fusion Machine</h3>
+              <p>Heat-fusion equipment for joining conduit and related components.</p>
+              <div class="chip-row">
+                <span class="chip">Training</span>
+                <span class="chip">Manual</span>
+                <span class="chip">Troubleshooting</span>
+              </div>
+              <a class="btn btn-inline" href="training.html">Open guide</a>
+            </article>
+
+            <article class="tool-card" data-search="vacuum excavator inspection safety manual parts troubleshooting">
+              <h3>Vacuum Excavator</h3>
+              <p>Hydro excavation support with inspection and operating safety guidance.</p>
+              <div class="chip-row">
+                <span class="chip">Training</span>
+                <span class="chip">Safety</span>
+                <span class="chip">Parts</span>
+              </div>
+              <a class="btn btn-inline" href="training.html">Open guide</a>
+            </article>
+
+            <article class="tool-card" data-search="mini excavator parts manual training troubleshooting">
+              <h3>Mini Excavator</h3>
+              <p>Compact site support equipment with maintenance and transport guidance.</p>
+              <div class="chip-row">
+                <span class="chip">Training</span>
+                <span class="chip">Manual</span>
+                <span class="chip">Troubleshooting</span>
+              </div>
+              <a class="btn btn-inline" href="training.html">Open guide</a>
+            </article>
+
+            <article class="tool-card" data-search="directional drill operator training manual troubleshooting parts">
+              <h3>Directional Drill</h3>
+              <p>Directional boring support for underground installs and job planning.</p>
+              <div class="chip-row">
+                <span class="chip">Training</span>
+                <span class="chip">Manual</span>
+                <span class="chip">Parts</span>
+              </div>
+              <a class="btn btn-inline" href="training.html">Open guide</a>
+            </article>
+
+            <article class="tool-card" data-search="generator power manual troubleshooting parts instructions">
+              <h3>Generator</h3>
+              <p>Portable power unit with startup checks and maintenance reminders.</p>
+              <div class="chip-row">
+                <span class="chip">Training</span>
+                <span class="chip">Manual</span>
+                <span class="chip">Troubleshooting</span>
+              </div>
+              <a class="btn btn-inline" href="training.html">Open guide</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Douglas Electric Tool Guides</h3>
+          <p>Resource-driven support for every tool in the shop.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="training.html">Training Videos</a></li>
+            <li><a href="manuals.html">Manuals</a></li>
+            <li><a href="safety.html">Safety Center</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Douglas Electric. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
