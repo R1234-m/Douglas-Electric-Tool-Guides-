@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vivax Metrotech VM-810 / VM-850 | Douglas Electric</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo-area">
+
+<img src="images/logo.png" class="logo">
+
+<div>
+<h1>Douglas Electric</h1>
+<p>Equipment Training Portal</p>
+</div>
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="equipment.html">Equipment</a>
+<a href="manuals.html">Manuals</a>
+<a href="safety.html">Safety</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<div class="page">
+
+<div class="banner">
+
+<h2>Vivax Metrotech VM-810 / VM-850</h2>
+
+<p>
+Pipe & Cable Locator Training Guide
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>Equipment Overview</h3>
+
+<p>
+
+The Vivax Metrotech VM-810/850 is used for locating buried
+electrical cables, communication lines, water pipes, gas
+lines and other underground utilities.
+
+Always verify utility markings before excavation.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>Training Video</h3>
+
+<div class="video">
+
+<iframe
+src="https://www.youtube.com/embed/7hLPkQ6vT1M"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<p style="margin-top:20px;">
+
+Watch the complete training before operating the equipment.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>Quick Start</h3>
+
+<ol>
+
+<li>Inspect the receiver and transmitter.</li>
+
+<li>Verify batteries are charged.</li>
+
+<li>Connect the transmitter to the target utility.</li>
+
+<li>Place the ground stake into moist soil.</li>
+
+<li>Attach the black lead to the ground stake.</li>
+
+<li>Attach the red lead to the utility.</li>
+
+<li>Select the desired frequency.</li>
+
+<li>Turn on the receiver.</li>
+
+<li>Adjust gain until the signal is stable.</li>
+
+<li>Walk slowly following the peak signal.</li>
+
+<li>Confirm direction changes.</li>
+
+<li>Measure depth where required.</li>
+
+</ol>
+
+</div>
+
+<div class="section">
+
+<h3>Included Parts</h3>
+
+<div class="parts">
+
+<div>✔ VM-810A Receiver</div>
+
+<div>✔ Transmitter</div>
+
+<div>✔ Receiver Wand</div>
+
+<div>✔ Carrying Case</div>
+
+<div>✔ Ground Stake</div>
+
+<div>✔ Ground Cable</div>
+
+<div>✔ Red Test Lead</div>
+
+<div>✔ Black Test Lead</div>
+
+<div>✔ Spare Batteries</div>
+
+<div>✔ User Manual</div>
+
+</div>
+
+</div>
