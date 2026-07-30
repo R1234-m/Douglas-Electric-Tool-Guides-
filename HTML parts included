@@ -1,0 +1,196 @@
+<div class="section">
+
+<h3>Safety Procedures</h3>
+
+<div class="warning">
+
+<h4>⚠ Before Every Locate</h4>
+
+<ul>
+
+<li>Wear required PPE.</li>
+
+<li>Inspect receiver and transmitter for damage.</li>
+
+<li>Verify battery charge.</li>
+
+<li>Check all test leads for cuts or exposed wire.</li>
+
+<li>Always obtain utility locates before excavation.</li>
+
+<li>Never assume depth readings are exact.</li>
+
+<li>Use caution around energized electrical systems.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>Troubleshooting</h3>
+
+<table>
+
+<tr>
+<th>Problem</th>
+<th>Possible Cause</th>
+<th>Solution</th>
+</tr>
+
+<tr>
+<td>No Signal</td>
+<td>Bad connection</td>
+<td>Reconnect leads and verify grounding.</td>
+</tr>
+
+<tr>
+<td>Weak Signal</td>
+<td>Low transmitter output</td>
+<td>Increase frequency or relocate ground stake.</td>
+</tr>
+
+<tr>
+<td>Erratic Readings</td>
+<td>Electrical interference</td>
+<td>Reduce gain and move away from interference.</td>
+</tr>
+
+<tr>
+<td>Depth Incorrect</td>
+<td>Improper receiver position</td>
+<td>Center receiver directly over utility.</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="section">
+
+<h3>Maintenance Checklist</h3>
+
+<ul>
+
+<li>✔ Wipe equipment clean after every use.</li>
+
+<li>✔ Remove dirt from cable connectors.</li>
+
+<li>✔ Replace damaged leads immediately.</li>
+
+<li>✔ Store equipment in carrying case.</li>
+
+<li>✔ Replace batteries when low.</li>
+
+<li>✔ Inspect antenna housing for cracks.</li>
+
+<li>✔ Keep manuals inside carrying case.</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h3>Douglas Electric Best Practices</h3>
+
+<div class="success">
+
+<ul>
+
+<li>Perform a complete equipment inspection before every locate.</li>
+
+<li>Confirm signal quality before marking utilities.</li>
+
+<li>Cross-check the locate from multiple directions.</li>
+
+<li>Use paint and flags according to company standards.</li>
+
+<li>Document unusual conditions before excavation.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>Helpful Resources</h3>
+
+<p>
+
+Use the links below for additional support.
+
+</p>
+
+<a class="button"
+href="https://www.vivax-metrotech.com/"
+target="_blank">
+
+Manufacturer Website
+
+</a>
+
+<a class="button"
+href="https://www.youtube.com/results?search_query=Vivax+Metrotech+VM810"
+target="_blank">
+
+Training Videos
+
+</a>
+
+</div>
+
+<div class="section">
+
+<h3>Equipment Status</h3>
+
+<table>
+
+<tr>
+<th>Item</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>Receiver</td>
+<td>✓ Ready</td>
+</tr>
+
+<tr>
+<td>Transmitter</td>
+<td>✓ Ready</td>
+</tr>
+
+<tr>
+<td>Leads</td>
+<td>Inspect Before Use</td>
+</tr>
+
+<tr>
+<td>Batteries</td>
+<td>Check Charge</td>
+</tr>
+
+</table>
+
+</div>
+
+<footer>
+
+<p>
+
+© 2026 Douglas Electric Equipment Portal
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
