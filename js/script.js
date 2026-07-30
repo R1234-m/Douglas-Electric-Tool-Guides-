@@ -25,12 +25,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const toolData = {
     vm810: {
-      title: 'Vivax Metrotech VM-810 / VM-850',
-      video: 'Start-up, locating workflow, and shutdown guide for the field.',
-      manuals: ['Quick-start guide', 'Battery and charging checklist', 'Daily inspection sheet'],
-      troubleshooting: ['Signal loss and interference checks', 'Battery faults and charging issues', 'Calibration and screen resets'],
-      parts: ['Battery pack', 'Carry case', 'Signal cable kit', 'Accessory adapters'],
-      safety: ['Verify the work zone', 'Inspect for damage before use', 'Follow utility locate requirements']
+      title: 'Vivax Metrotech VM-810 / VM-850 Pipe & Cable Locator',
+      video: 'Official Vivax Metrotech operator resources for the VM-810 / VM-850, including setup, locating workflow, battery management, and troubleshooting.',
+      videoLink: 'https://www.vivax-metrotech.com/wp-content/uploads/2021/03/VM-810-VM-850-User-Handbook-VXMT-Eng-V2.1-Publish-20210318.pdf',
+      manuals: [
+        'VM-810 / VM-850 user handbook (PDF)',
+        'Battery charging and maintenance guide',
+        'Daily inspection and startup checklist'
+      ],
+      troubleshooting: [
+        'Signal loss and interference checks',
+        'Battery faults, charging problems, and power cycling',
+        'Antenna, cable, and calibration issues',
+        'Screen errors and software reset steps'
+      ],
+      parts: [
+        'Battery pack and charger',
+        'Signal cable and connector kit',
+        'Antenna and accessory adapters',
+        'Carry case, headset, and locator accessories'
+      ],
+      safety: [
+        'Verify utility locates and mark the work zone',
+        'Inspect the locator and cables before every use',
+        'Use PPE and follow utility-safe operating procedures'
+      ]
     },
     fusion: {
       title: 'Fusion Machine',
@@ -77,7 +96,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const renderTool = (toolKey) => {
     const selected = toolData[toolKey] || toolData.vm810;
     detailTitle.textContent = selected.title;
-    detailVideo.textContent = selected.video;
+    if (selected.videoLink) {
+      detailVideo.innerHTML = `<strong>${selected.video}</strong><br><a href="${selected.videoLink}" target="_blank" rel="noopener noreferrer">Open Vivax Metrotech handbook and resources</a>`;
+    } else {
+      detailVideo.textContent = selected.video;
+    }
     detailManuals.innerHTML = selected.manuals.map((item) => `<li>${item}</li>`).join('');
     detailTrouble.innerHTML = selected.troubleshooting.map((item) => `<li>${item}</li>`).join('');
     detailParts.innerHTML = selected.parts.map((item) => `<li>${item}</li>`).join('');
