@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Douglas Electric logo">
+  <rect width="160" height="160" rx="32" fill="#0f7a5f" />
+  <path d="M40 100h80" stroke="#ffffff" stroke-width="12" stroke-linecap="round" />
+  <path d="M56 76l24-28 24 28" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="80" cy="96" r="12" fill="#2b8cff" />
+</svg>
