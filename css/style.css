@@ -170,6 +170,20 @@ img {
   color: var(--muted);
 }
 
+article.resource-card *,
+article.feature-card *,
+article.tool-card *,
+div.detail-card * {
+  color: var(--text) !important;
+}
+
+article.resource-card ul,
+article.feature-card ul,
+article.tool-card ul,
+div.detail-card ul {
+  color: var(--muted) !important;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
