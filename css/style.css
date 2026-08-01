@@ -411,6 +411,42 @@ div.detail-card ul {
   padding-bottom: 2rem;
 }
 
+.inventory-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.inventory-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1rem;
+  align-items: center;
+  background: rgba(255,255,255,0.95);
+  border: 1px solid rgba(225,232,240,0.8);
+  border-radius: 20px;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.inventory-row img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 14px;
+  background: var(--surface-alt);
+}
+
+.inventory-row h3 {
+  margin: 0 0 0.35rem;
+  color: var(--text);
+}
+
+.inventory-row p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .page-banner {
   padding: 3.2rem 0 1.6rem;
   background: linear-gradient(135deg, rgba(15,122,95,0.14), rgba(43,140,255,0.12));
