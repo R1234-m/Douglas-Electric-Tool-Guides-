@@ -7,14 +7,13 @@ A polished, mobile-friendly website for Douglas Electric that centralizes:
 - manuals and troubleshooting guides
 - parts lists and reference materials
 - safety center
-- contact and support information
 - search functionality and QR-code access
 
 ## Features
 
 - Responsive homepage with a modern layout
 - Searchable equipment catalog
-- Training, manuals, safety, and contact pages
+- Training, manuals, and safety pages
 - GitHub Pages-ready static site structure
 - Simple setup for local preview
 

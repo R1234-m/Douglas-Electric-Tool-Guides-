@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Douglas Electric Tool Guides is a polished resource hub for equipment training, manuals, troubleshooting, safety, and contact support." />
-    <title>Douglas Electric Tool Guides</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <meta
+      name="description"
+      content="Douglas Electric training resources for equipment operation, safety drills, and Michigan-focused field readiness."
+    />
+    <title>Training Resources | Douglas Electric</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -17,141 +17,101 @@
           <img src="images/logo.webp" alt="Douglas Electric logo" />
           <div>
             <strong>Douglas Electric</strong>
-            <span>Tool Guides & Safety Center</span>
+            <span>Training Resources</span>
           </div>
         </a>
         <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
         <nav class="site-nav">
-          <a href="index.html" class="active">Home</a>
+          <a href="index.html">Home</a>
           <a href="equipment.html">Equipment</a>
-          <a href="training.html">Training</a>
+          <a href="training.html" class="active">Training</a>
           <a href="manuals.html">Manuals</a>
           <a href="safety.html">Safety</a>
-          <a href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
 
-    <main>
-      <section class="hero-shell">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Field-ready knowledge hub</p>
-            <h1>Tools, training, manuals, and safety in one polished experience.</h1>
-            <p class="hero-text">Jump into the tool hub, choose a machine, and open its instructional video, operator manual, troubleshooting guide, parts list, and safety notes from one place.</p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#toolHub">Open the Tools section</a>
-              <a class="btn btn-secondary" href="training.html">Watch training resources</a>
-            </div>
-            <div class="hero-badges">
-              <span>Video ready</span>
-              <span>Mobile friendly</span>
-              <span>Searchable</span>
-            </div>
-          </div>
-          <div class="hero-panel">
-            <div class="hero-panel-card">
-              <p class="eyebrow">Quick access</p>
-              <h3>Built for the shop floor</h3>
-              <ul>
-                <li>Fast navigation for crews and supervisors</li>
-                <li>Strong visual layout with clear sections</li>
-                <li>QR-ready support and safety resources</li>
-              </ul>
-            </div>
-          </div>
+    <main class="page-shell">
+      <section class="page-banner">
+        <div class="container">
+          <p class="eyebrow">Crew development</p>
+          <h1>Training resources for field teams</h1>
+          <p>
+            Use this page to structure onboarding, refreshers, and documented
+            competency checks for electrical field operations in Michigan.
+          </p>
         </div>
       </section>
 
-      <section class="section" id="toolHub">
+      <section class="section">
         <div class="container">
-          <div class="section-card">
-            <div class="section-heading">
-              <p class="eyebrow">Interactive tool hub</p>
-              <h2>Start with Tools</h2>
-              <p>Click the main Tools section, choose a tool, and open its instructional video, manuals, troubleshooting steps, and parts list.</p>
-            </div>
+          <div class="resource-grid">
+            <article class="resource-card">
+              <h3>New-hire first week plan</h3>
+              <ul>
+                <li>Day 1: PPE, stop-work authority, and communication standards.</li>
+                <li>Day 2: Utility locate workflow and mark recognition review.</li>
+                <li>Day 3: Tool startup and shutdown drills with supervisor signoff.</li>
+                <li>Day 4-5: Ride-along with performance notes and final check.</li>
+              </ul>
+            </article>
 
-            <button class="mega-toggle" id="toolsToggle" type="button">Tools</button>
+            <article class="resource-card">
+              <h3>Monthly refresher topics</h3>
+              <ul>
+                <li>Voltage testing workflow and test-before-touch sequence.</li>
+                <li>Lockout/tagout verification steps for service work.</li>
+                <li>Generator load management and temporary power safety.</li>
+                <li>Near-miss review and corrective action follow-through.</li>
+              </ul>
+            </article>
 
-            <div class="tool-list" id="toolList">
-              <button class="tool-choice active" type="button" data-tool="vm810">Vivax Metrotech VM-810 / VM-850</button>
-              <button class="tool-choice" type="button" data-tool="fusion">Fusion Machine</button>
-              <button class="tool-choice" type="button" data-tool="vacuum">Vacuum Excavator</button>
-              <button class="tool-choice" type="button" data-tool="mini">Mini Excavator</button>
-              <button class="tool-choice" type="button" data-tool="drill">Directional Drill</button>
-              <button class="tool-choice" type="button" data-tool="generator">Generator</button>
-            </div>
+            <article class="resource-card">
+              <h3>Toolbox talk rotation</h3>
+              <ul>
+                <li>Week 1: Excavation tolerance zones and 811 ticket review.</li>
+                <li>Week 2: Ground-fault protection and extension cord inspection.</li>
+                <li>Week 3: Traffic control around active work zones.</li>
+                <li>Week 4: Heat/cold stress and hydration planning.</li>
+              </ul>
+            </article>
 
-            <div class="tool-details">
-              <div class="video-card">
-                <div class="video-screen">
-                  <div class="media-preview">
-                    <div class="media-badge">Instructional video</div>
-                    <h3 id="detailTitle">Vivax Metrotech VM-810 / VM-850</h3>
-                    <p id="detailVideo">Start-up, locating workflow, battery care, and troubleshooting guidance for the field.</p>
-                    <iframe
-                      class="video-frame"
-                      title="Vivax Metrotech VM-810 and VM-850 training video"
-                      src="https://www.youtube-nocookie.com/embed/Twx8-DdhX3w?rel=0&cachebust=20260730"
-                      loading="lazy"
-                      referrerpolicy="strict-origin-when-cross-origin"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen>
-                    </iframe>
-                    <div class="video-actions">
-                      <a class="btn btn-primary" href="https://youtu.be/Twx8-DdhX3w" target="_blank" rel="noopener noreferrer">Open training video</a>
-                      <a class="btn btn-secondary" href="https://www.vivax-metrotech.com/wp-content/uploads/2021/03/VM-810-VM-850-User-Handbook-VXMT-Eng-V2.1-Publish-20210318.pdf" target="_blank" rel="noopener noreferrer">Open handbook</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <article class="resource-card">
+              <h3>Documentation to keep current</h3>
+              <ul>
+                <li>Qualified worker list and supervised trainee assignments.</li>
+                <li>Daily briefing sign-in and hazard analysis records.</li>
+                <li>Equipment inspection logs and out-of-service tags.</li>
+                <li>Incident, near-miss, and corrective-action reports.</li>
+              </ul>
+            </article>
 
-              <div class="detail-grid">
-                <article class="detail-card">
-                  <h3>Manuals</h3>
-                  <ul id="detailManuals"></ul>
-                </article>
-                <article class="detail-card">
-                  <h3>Troubleshooting</h3>
-                  <ul id="detailTrouble"></ul>
-                </article>
-                <article class="detail-card">
-                  <h3>Parts list</h3>
-                  <ul id="detailParts"></ul>
-                </article>
-                <article class="detail-card">
-                  <h3>Safety notes</h3>
-                  <ul id="detailSafety"></ul>
-                </article>
-              </div>
-            </div>
+            <article class="resource-card">
+              <h3>Michigan-focused training reminders</h3>
+              <ul>
+                <li>Non-union teams must still follow MIOSHA/OSHA rules in full.</li>
+                <li>Only properly licensed or supervised personnel perform electrical work.</li>
+                <li>Confirm permit, utility locate, and municipal requirements before work.</li>
+                <li>Re-brief crews whenever scope or site conditions change.</li>
+              </ul>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="section section-alt">
-        <div class="container feature-grid">
-          <article class="feature-card">
-            <h3>Training videos</h3>
-            <p>Quick, practical walkthroughs for startup, operation, and shutdown.</p>
-            <a href="training.html">Open training library</a>
-          </article>
-          <article class="feature-card">
-            <h3>Manuals & reference</h3>
-            <p>Keep quick-start guides, troubleshooting notes, and parts lists ready.</p>
-            <a href="manuals.html">Browse manuals</a>
-          </article>
-          <article class="feature-card">
-            <h3>Safety center</h3>
-            <p>Daily PPE checks, inspections, incident steps, and stop-work guidance.</p>
-            <a href="safety.html">Review safety</a>
-          </article>
-          <article class="feature-card">
-            <h3>Support & contact</h3>
-            <p>Reach out for updates, resource requests, and QR-ready shop access.</p>
-            <a href="contact.html">Contact support</a>
-          </article>
+        <div class="container">
+          <div class="section-card">
+            <div class="section-heading">
+              <p class="eyebrow">Implementation tip</p>
+              <h2>Keep training practical and verifiable</h2>
+              <p>
+                Pair each lesson with a field demonstration, then record who
+                completed it, when it was taught, and who signed off. This keeps
+                training useful during audits and day-to-day operations.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -160,7 +120,7 @@
       <div class="container footer-grid">
         <div>
           <h3>Douglas Electric Tool Guides</h3>
-          <p>Training, manuals, safety, and support in one polished hub.</p>
+          <p>Training resources designed for consistent field execution.</p>
         </div>
         <div>
           <h4>Quick Links</h4>
@@ -168,7 +128,6 @@
             <li><a href="equipment.html">Equipment Library</a></li>
             <li><a href="manuals.html">Manuals</a></li>
             <li><a href="safety.html">Safety Center</a></li>
-            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>

@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Douglas Electric Tool Guides is a polished resource hub for equipment training, manuals, troubleshooting, safety, and contact support." />
+    <meta name="description" content="Douglas Electric Tool Guides is a polished resource hub for equipment training, manuals, troubleshooting, and safety resources." />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>Douglas Electric Tool Guides</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +30,6 @@
           <a href="training.html">Training</a>
           <a href="manuals.html">Manuals</a>
           <a href="safety.html">Safety</a>
-          <a href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -75,7 +77,7 @@
             <button class="mega-toggle" id="toolsToggle" type="button">Tools</button>
 
             <div class="tool-list" id="toolList">
-              <button class="tool-choice active" type="button" data-tool="vm810">Vivax Metrotech VM-810 / VM-850</button>
+              <button class="tool-choice active" type="button" data-tool="vm810">Vivax Metrotech VM-810 / VM-850 Pipe &amp; Cable Locator</button>
               <button class="tool-choice" type="button" data-tool="fusion">Fusion Machine</button>
               <button class="tool-choice" type="button" data-tool="vacuum">Vacuum Excavator</button>
               <button class="tool-choice" type="button" data-tool="mini">Mini Excavator</button>
@@ -124,6 +126,20 @@
                   <h3>Safety notes</h3>
                   <ul id="detailSafety"></ul>
                 </article>
+                <article class="detail-card" style="grid-column: 1 / -1;">
+                  <h3>Field tips</h3>
+                  <ul id="detailFieldTips"></ul>
+                </article>
+                <article class="detail-card" style="grid-column: 1 / -1;">
+                  <h3>How to use it in the field</h3>
+                  <ul>
+                    <li>1. Charge the battery and confirm the locator powers on normally.</li>
+                    <li>2. Inspect the cable, antenna, and connectors before leaving the truck.</li>
+                    <li>3. Verify the work zone, utility locate marks, and safe access points.</li>
+                    <li>4. Sweep the area slowly and confirm the signal before marking the utility.</li>
+                    <li>5. If the signal weakens or becomes unstable, stop and check the setup before proceeding.</li>
+                  </ul>
+                </article>
               </div>
             </div>
           </div>
@@ -148,10 +164,42 @@
             <a href="safety.html">Review safety</a>
           </article>
           <article class="feature-card">
-            <h3>Support & contact</h3>
-            <p>Reach out for updates, resource requests, and QR-ready shop access.</p>
-            <a href="contact.html">Contact support</a>
+            <h3>Michigan jobsite compliance</h3>
+            <p>Review state-focused electrical safety reminders, utility locate steps, and daily crew checks.</p>
+            <a href="safety.html">Open compliance guide</a>
           </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-card">
+            <div class="section-heading">
+              <p class="eyebrow">Quick compliance check</p>
+              <h2>Michigan electrical jobsite start checklist</h2>
+              <p>Use this 60-second check before crews start work each day.</p>
+            </div>
+            <div class="resource-grid">
+              <article class="resource-card">
+                <h3>Before work begins</h3>
+                <ul>
+                  <li>811 ticket is active and utility marks are verified onsite.</li>
+                  <li>Assigned crew includes qualified personnel for the planned tasks.</li>
+                  <li>Daily hazard brief is completed with stop-work triggers reviewed.</li>
+                  <li>Tools, cords, and GFCI protection are inspected and documented.</li>
+                </ul>
+              </article>
+              <article class="resource-card">
+                <h3>During active work</h3>
+                <ul>
+                  <li>Use de-energized workflow whenever feasible and verify before touch.</li>
+                  <li>Maintain traffic control and barricade limits around the work area.</li>
+                  <li>Log locator checks, field changes, and near misses in real time.</li>
+                  <li>Pause and re-brief immediately if site conditions change.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -160,7 +208,7 @@
       <div class="container footer-grid">
         <div>
           <h3>Douglas Electric Tool Guides</h3>
-          <p>Training, manuals, safety, and support in one polished hub.</p>
+          <p>Training, manuals, and safety in one polished hub.</p>
         </div>
         <div>
           <h4>Quick Links</h4>
@@ -168,13 +216,13 @@
             <li><a href="equipment.html">Equipment Library</a></li>
             <li><a href="manuals.html">Manuals</a></li>
             <li><a href="safety.html">Safety Center</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="training.html">Training</a></li>
           </ul>
         </div>
       </div>
       <p class="footer-copy">© <span id="year"></span> Douglas Electric. All rights reserved.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js?v=20260730"></script>
   </body>
 </html>
