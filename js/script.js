@@ -106,6 +106,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const renderTool = (toolKey) => {
     const selected = toolData[toolKey] || toolData.vm810;
+    if (!detailTitle || !detailVideo || !detailManuals || !detailTrouble || !detailParts || !detailSafety) {
+      return;
+    }
+
     detailTitle.textContent = selected.title;
     if (selected.videoLink) {
       detailVideo.innerHTML = `<strong>${selected.video}</strong><br><a href="${selected.videoLink}" target="_blank" rel="noopener noreferrer">Open Vivax Metrotech handbook and resources</a>`;
@@ -117,7 +121,15 @@ document.addEventListener('DOMContentLoaded', () => {
     detailParts.innerHTML = selected.parts.map((item) => `<li>${item}</li>`).join('');
     detailSafety.innerHTML = selected.safety.map((item) => `<li>${item}</li>`).join('');
     if (detailFieldTips) {
-      detailFieldTips.innerHTML = selected.fieldTips?.map((item) => `<li>${item}</li>`).join('');
+      const tips = selected.fieldTips && selected.fieldTips.length
+        ? selected.fieldTips
+        : [
+            'Confirm crew roles and communication plan before startup.',
+            'Complete a quick inspection and tag damaged equipment out of service.',
+            'Stop and re-check setup if readings or machine behavior look inconsistent.',
+            'Record issues and corrective actions before leaving the site.'
+          ];
+      detailFieldTips.innerHTML = tips.map((item) => `<li>${item}</li>`).join('');
     }
   };
 
