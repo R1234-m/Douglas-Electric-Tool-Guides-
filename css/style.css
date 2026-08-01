@@ -151,6 +151,25 @@ img {
   color: rgba(255,255,255,0.78);
 }
 
+.resource-card h3,
+.resource-card p,
+.resource-card li,
+.feature-card h3,
+.feature-card p,
+.tool-card h3,
+.tool-card p,
+.detail-card h3,
+.detail-card li {
+  color: var(--text);
+}
+
+.resource-card ul,
+.feature-card ul,
+.tool-card ul,
+.detail-card ul {
+  color: var(--muted);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
