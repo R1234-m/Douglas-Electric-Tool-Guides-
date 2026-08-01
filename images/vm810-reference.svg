@@ -1,0 +1,20 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="24" fill="#F4F7FB"/>
+  <rect x="120" y="120" width="560" height="260" rx="24" fill="#0F7A5F"/>
+  <rect x="155" y="155" width="220" height="140" rx="18" fill="#E8F7F2"/>
+  <rect x="175" y="175" width="120" height="24" rx="8" fill="#0B5D45"/>
+  <rect x="175" y="212" width="170" height="18" rx="9" fill="#7EE6C8"/>
+  <rect x="175" y="242" width="140" height="18" rx="9" fill="#7EE6C8"/>
+  <rect x="430" y="170" width="170" height="100" rx="18" fill="#113A57"/>
+  <path d="M470 220C470 196.804 488.804 178 512 178H560C583.196 178 602 196.804 602 220V220C602 243.196 583.196 262 560 262H512C488.804 262 470 243.196 470 220V220Z" stroke="#8FD8C3" stroke-width="14"/>
+  <path d="M470 220H602" stroke="#8FD8C3" stroke-width="10" stroke-linecap="round"/>
+  <path d="M495 220H578" stroke="#E8F7F2" stroke-width="8" stroke-linecap="round"/>
+  <rect x="420" y="300" width="120" height="48" rx="16" fill="#E8F7F2"/>
+  <circle cx="462" cy="324" r="16" fill="#0F7A5F"/>
+  <rect x="155" y="325" width="286" height="24" rx="12" fill="#CFE6E1"/>
+  <path d="M155 337C182 303 239 278 315 282C366 285 404 299 441 326" stroke="#0B5D45" stroke-width="8" stroke-linecap="round"/>
+  <rect x="500" y="306" width="130" height="20" rx="10" fill="#E8F7F2"/>
+  <rect x="500" y="332" width="95" height="16" rx="8" fill="#E8F7F2"/>
+  <text x="160" y="396" fill="#113A57" font-family="Arial, sans-serif" font-size="34" font-weight="700">Vivax Metrotech Locator</text>
+  <text x="160" y="432" fill="#5B6B7F" font-family="Arial, sans-serif" font-size="24">Quick reference for identifying the VM-810 / VM-850</text>
+</svg>
